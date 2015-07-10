@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="214" y="17">
+  <block type="oled_cleardisplay" id="9" x="288" y="69">
     <next>
       <block type="oled_setcursor" id="18" inline="true">
         <value name="STARTX">
@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="41">
-            <field name="TEXT">1907 * 754368=</field>
+            <field name="TEXT">999999999999999999999999999999999999*999999999999999999999999999999999999999999999</field>
             <next>
               <block type="oled_setcursor" id="90" inline="true">
                 <value name="STARTX">
@@ -34,12 +34,12 @@
                         <field name="OP">MULTIPLY</field>
                         <value name="A">
                           <block type="math_number" id="82">
-                            <field name="NUM">1907</field>
+                            <field name="NUM">1e+30</field>
                           </block>
                         </value>
                         <value name="B">
                           <block type="math_number" id="89">
-                            <field name="NUM">754368</field>
+                            <field name="NUM">1e+25</field>
                           </block>
                         </value>
                       </block>
